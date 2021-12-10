@@ -1,0 +1,68 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0px;
+    background-image: url("fondoregistrar.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.contenedor{
+    width: 100%;
+    padding: 20px;
+}
+.formulario{
+    background: #1cbbc4;
+    margin: auto;
+    width: 400px;
+}
+
+h1{
+    color: #ff9459;
+    font-size: 50px;
+    text-align: center;
+}
+
+input[type="text"],input[type="number"],input[type="password"]{
+    font-size: 20px;
+    width: 80%;
+    padding: 10px;
+}
+
+.entrada-contenedor{
+    margin-bottom: 15px;
+}
+
+p{
+    text-align: center;
+}
+
+.boton{
+    border: none;
+    width: 90%;
+    color: white;
+    font-size: 20px;
+    background: #4fd190;
+    padding: 15px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+ .boton:hover{
+     background: #FFB762;
+ }
+
+ .link{
+     text-decoration: none;
+     color:#ff9459;
+     font-weight: 800;
+ }
+ .link:hover{
+     color: #4fd190;
+ }
+ @media(min-width:768px){
+    .formulario{
+        margin: auto;
+        width: 500px;
+        margin-top:150px;
+        border-radius: 2%;
+    }
+ }

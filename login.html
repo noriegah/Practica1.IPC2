@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="registrar.css">
+</head>
+<body>
+    <form class="formulario">
+        <h1>Inicie Sesion</h1>
+        <div class="contenedor">
+            <div class="entrada-contenedor">
+                <input type="text" placeholder="Correo Electronico" id="nomlogin">
+            </div>
+            <div class="entrada-contenedor">
+                <input type="password" placeholder="Contraseña" id="passlogin">
+            </div>
+            <input type="button" onclick="capturaLogin()" value="Iniciar Sesion" class="boton" >
+            <p>Aun no estas Registrado? <a class="link" href="registrar.html">Registrate Gratis</a>
+            </p>
+        </div>
+    </form>
+    <script src="login.js"></script>
+</body>
+</html>
